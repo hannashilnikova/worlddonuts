@@ -1,6 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 body{
-  color:red;
+    font-family:'Motserrat', sans-serif;
 }
-h1{
-  font-size:30px;
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.question{
+    font-size: 100px;
+}
+.ans-row{
+    display: flex;
+    box-sizing: border-box;
+}
+.answer{
+    border: 1px solid black;
+    margin: 5px;
+    width: 65px; height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.container_h3{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 15px;
+}
+.main{
+    display: none;
+}
+.btn-start{
+    font-size: 30px;
+    padding: .5em;
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btn-start:hover{
+    background-color: #eaeaea;
 }
